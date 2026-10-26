@@ -1,0 +1,34 @@
+body { font-family: Arial, sans-serif;
+background-color: #e7d1ff;
+margin: 20px; }
+
+#header { text-align: right; color: #00a896; margin-bottom: 20px; background-color: #A0FBFB; }
+
+#header h1 { font-size: 32px; margin: 0; font-weight: normal; }
+
+#header p { font-size: 18px; color: #4a9e91; margin: 5px 0 0 0; }
+
+#container { width: 900px; margin: 0 auto; background-color: white; padding: 20px; box-sizing: border-box;
+overflow: hidden; }
+
+.sidebar { float: left; width: 220px; background-color: #13D4D4; border: 5px solid #00a896; padding: 15px; box-sizing: border-box; margin-right: 20px; }
+
+.red-text { color: #8b0000; }
+
+.sidebar h2 { color: #00a896; font-size: 24px; margin-top: 0; font-weight: bold; }
+
+.sidebar ul { list-style-type: disc; padding-left: 20px; color: #e0f2f1; }
+
+.sidebar li { margin-bottom: 8px; }
+
+.main-content { float: right; width: 600px; }
+
+.entry { background-color: #e0f2f1; border: 3px solid #b4ced2; padding: 15px; margin-bottom: 20px; box-sizing: border-box; overflow: hidden; }
+
+.entry-title { color: #00a896; font-size: 22px; font-weight: bold; border-bottom: 2px dashed #00a896; padding-bottom: 5px; margin-top: 0; }
+
+.entry-date { font-weight: bold; }
+
+.entry p { color: #8b0000; line-height: 1.5; font-size: 15px; }
+
+.entry img { float: right; margin-left: 15px; border: 1px solid #ccc; width: 180px; height: auto; }
